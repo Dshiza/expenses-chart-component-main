@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Expenses chart component</title>
+
+
+</head>
+
+<body>
+  <article class="card">
+    <div class="balance">
+      <p>My balance<span>$921.48</span></p>
+      <div class="symbol"></div>
+    </div>
+    <div class="stats">
+      <h1>Spending - Last 7 days</h1>
+      <div class="graph">
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="graph4"></div>
+        <p>mon</p>
+        <p>tue</p>
+        <p>wed</p>
+        <p>thu</p>
+        <p>fri</p>
+        <p>sat</p>
+        <p>sun</p>
+      </div>
+      <div class="month-expendature">
+        <p>Total this month<span>$478.33</span></p>
+        <div class="month-dif">
+          <p><span>+2.4%</span>from last month</p>
+        </div>
+      </div>
+    </div>
+  </article>
+
+
+  <script>
+    fetch('./data.json').then()
+  </script>
+</body>
+
+</html>
