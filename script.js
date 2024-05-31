@@ -61,3 +61,75 @@ fetch("./data.json")
       }
     }
   });
+
+const test = document.getElementById("test");
+
+mon.addEventListener("mouseover", (event) => {
+  // show the p element
+  document.querySelector("#q1 p").style.display = "block";
+});
+
+mon.addEventListener("mouseout", (event) => {
+  // hide the p element
+  document.querySelector("#q1 p").style.display = "none";
+});
+
+tue.addEventListener("mouseover", (event) => {
+  // show the p element
+  document.querySelector("#q2 p").style.display = "block";
+});
+
+tue.addEventListener("mouseout", (event) => {
+  // hide the p element
+  document.querySelector("#q2 p").style.display = "none";
+});
+
+wed.addEventListener("mouseover", (event) => {
+  // show the p element
+  document.querySelector("#q3 p").style.display = "block";
+});
+
+wed.addEventListener("mouseout", (event) => {
+  // hide the p element
+  document.querySelector("#q3 p").style.display = "none";
+});
+
+thu.addEventListener("mouseover", (event) => {
+  // show the p element
+  document.querySelector("#q4 p").style.display = "block";
+});
+
+thu.addEventListener("mouseout", (event) => {
+  // hide the p element
+  document.querySelector("#q4 p").style.display = "none";
+});
+
+fri.addEventListener("mouseover", (event) => {
+  // show the p element
+  document.querySelector("#q5 p").style.display = "block";
+});
+
+fri.addEventListener("mouseout", (event) => {
+  // hide the p element
+  document.querySelector("#q5 p").style.display = "none";
+});
+
+sat.addEventListener("mouseover", (event) => {
+  // show the p element
+  document.querySelector("#q6 p").style.display = "block";
+});
+
+sat.addEventListener("mouseout", (event) => {
+  // hide the p element
+  document.querySelector("#q6 p").style.display = "none";
+});
+
+sun.addEventListener("mouseover", (event) => {
+  // show the p element
+  document.querySelector("#q7 p").style.display = "block";
+});
+
+sun.addEventListener("mouseout", (event) => {
+  // hide the p element
+  document.querySelector("#q7 p").style.display = "none";
+});

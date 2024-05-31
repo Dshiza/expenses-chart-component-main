@@ -287,11 +287,12 @@ tbody {
   font-size: 0.5rem;
 }
 td p {
-  display: block;
+  display: none;
+
   position: absolute;
   width: 75px;
   height: max-content;
-  top: -40px;
+  top: -45px;
   left: 75px;
   transform: translate(-87.5px, 0);
   padding: 8px;
@@ -302,13 +303,14 @@ td p {
   font-size: var(--fs-caption);
   font-weight: var(--fw-bold);
 }
+
 @media (max-width: 37.5rem) {
   #graph td {
     width: 30px;
   }
   td p {
     left: 45px;
-    top: -30px;
+    top: -35px;
     transform: translate(-52.5px, 0);
     width: 45px;
     font-size: 0.5rem;
